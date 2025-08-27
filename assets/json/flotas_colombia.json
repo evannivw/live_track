@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "flota_001",
+    "name": "Flota 1 - Barranquilla",
+    "status": "active",
+    "position": [
+      10.731005,
+      -74.893785
+    ],
+    "createdAt": "2025-08-06T11:06:00Z"
+  },
+  {
+    "id": "flota_002",
+    "name": "Flota 2 - Valledupar",
+    "status": "active",
+    "position": [
+      10.256569,
+      -73.292239
+    ],
+    "createdAt": "2025-08-03T18:14:00Z"
+  },
+  {
+    "id": "flota_003",
+    "name": "Flota 3 - Riohacha",
+    "status": "maintenance",
+    "position": [
+      11.595409,
+      -72.876577
+    ],
+    "createdAt": "2025-08-22T10:34:00Z"
+  },
+  {
+    "id": "flota_004",
+    "name": "Flota 4 - Montería",
+    "status": "active",
+    "position": [
+      8.61022,
+      -75.838667
+    ],
+    "createdAt": "2025-08-25T17:44:00Z"
+  },
+  {
+    "id": "flota_005",
+    "name": "Flota 5 - Montería",
+    "status": "inactive",
+    "position": [
+      8.670125,
+      -76.05556
+    ],
+    "createdAt": "2025-08-04T14:24:00Z"
+  },
+  {
+    "id": "flota_006",
+    "name": "Flota 6 - Barranquilla",
+    "status": "inactive",
+    "position": [
+      10.89799,
+      -74.859322
+    ],
+    "createdAt": "2025-08-26T13:46:00Z"
+  },
+  {
+    "id": "flota_007",
+    "name": "Flota 7 - Neiva",
+    "status": "inactive",
+    "position": [
+      2.952614,
+      -75.044342
+    ],
+    "createdAt": "2025-08-04T05:18:00Z"
+  },
+  {
+    "id": "flota_008",
+    "name": "Flota 8 - Popayán",
+    "status": "active",
+    "position": [
+      2.637526,
+      -76.683882
+    ],
+    "createdAt": "2025-08-23T14:02:00Z"
+  },
+  {
+    "id": "flota_009",
+    "name": "Flota 9 - Cúcuta",
+    "status": "active",
+    "position": [
+      8.030434,
+      -72.265189
+    ],
+    "createdAt": "2025-08-05T00:17:00Z"
+  },
+  {
+    "id": "flota_010",
+    "name": "Flota 10 - Neiva",
+    "status": "inactive",
+    "position": [
+      3.002342,
+      -75.348484
+    ],
+    "createdAt": "2025-08-12T18:42:00Z"
+  },
+  {
+    "id": "flota_011",
+    "name": "Flota 11 - Santa Marta",
+    "status": "active",
+    "position": [
+      11.34171,
+      -74.107226
+    ],
+    "createdAt": "2025-08-21T08:10:00Z"
+  },
+  {
+    "id": "flota_012",
+    "name": "Flota 12 - Valledupar",
+    "status": "inactive",
+    "position": [
+      10.577663,
+      -73.421499
+    ],
+    "createdAt": "2025-08-10T08:44:00Z"
+  },
+  {
+    "id": "flota_013",
+    "name": "Flota 13 - Valledupar",
+    "status": "active",
+    "position": [
+      10.322908,
+      -73.341059
+    ],
+    "createdAt": "2025-08-08T13:51:00Z"
+  },
+  {
+    "id": "flota_014",
+    "name": "Flota 14 - Villavicencio",
+    "status": "maintenance",
+    "position": [
+      4.103882,
+      -73.852606
+    ],
+    "createdAt": "2025-08-23T22:13:00Z"
+  },
+  {
+    "id": "flota_015",
+    "name": "Flota 15 - Sincelejo",
+    "status": "inactive",
+    "position": [
+      9.252516,
+      -75.190526
+    ],
+    "createdAt": "2025-08-05T20:08:00Z"
+  },
+  {
+    "id": "flota_016",
+    "name": "Flota 16 - Cúcuta",
+    "status": "maintenance",
+    "position": [
+      8.016394,
+      -72.488311
+    ],
+    "createdAt": "2025-08-20T01:57:00Z"
+  },
+  {
+    "id": "flota_017",
+    "name": "Flota 17 - Armenia",
+    "status": "active",
+    "position": [
+      4.4836,
+      -75.82144
+    ],
+    "createdAt": "2025-08-18T03:05:00Z"
+  },
+  {
+    "id": "flota_018",
+    "name": "Flota 18 - Medellín",
+    "status": "active",
+    "position": [
+      6.432351,
+      -75.737179
+    ],
+    "createdAt": "2025-08-27T09:27:00Z"
+  },
+  {
+    "id": "flota_019",
+    "name": "Flota 19 - Popayán",
+    "status": "inactive",
+    "position": [
+      2.226564,
+      -76.67389
+    ],
+    "createdAt": "2025-08-17T20:35:00Z"
+  },
+  {
+    "id": "flota_020",
+    "name": "Flota 20 - Bogotá",
+    "status": "maintenance",
+    "position": [
+      4.801142,
+      -74.264824
+    ],
+    "createdAt": "2025-08-25T20:49:00Z"
+  },
+  {
+    "id": "flota_021",
+    "name": "Flota 21 - Villavicencio",
+    "status": "inactive",
+    "position": [
+      3.959076,
+      -73.668317
+    ],
+    "createdAt": "2025-08-02T11:56:00Z"
+  },
+  {
+    "id": "flota_022",
+    "name": "Flota 22 - Santa Marta",
+    "status": "maintenance",
+    "position": [
+      11.476744,
+      -74.068019
+    ],
+    "createdAt": "2025-08-05T08:19:00Z"
+  },
+  {
+    "id": "flota_023",
+    "name": "Flota 23 - Riohacha",
+    "status": "active",
+    "position": [
+      11.598885,
+      -73.08078
+    ],
+    "createdAt": "2025-08-19T04:58:00Z"
+  },
+  {
+    "id": "flota_024",
+    "name": "Flota 24 - Bogotá",
+    "status": "active",
+    "position": [
+      4.760472,
+      -74.077797
+    ],
+    "createdAt": "2025-08-12T21:15:00Z"
+  },
+  {
+    "id": "flota_025",
+    "name": "Flota 25 - Medellín",
+    "status": "active",
+    "position": [
+      6.122236,
+      -75.529922
+    ],
+    "createdAt": "2025-08-04T11:31:00Z"
+  },
+  {
+    "id": "flota_026",
+    "name": "Flota 26 - Cali",
+    "status": "active",
+    "position": [
+      3.690592,
+      -76.515647
+    ],
+    "createdAt": "2025-08-06T09:30:00Z"
+  },
+  {
+    "id": "flota_027",
+    "name": "Flota 27 - Valledupar",
+    "status": "maintenance",
+    "position": [
+      10.295663,
+      -73.239363
+    ],
+    "createdAt": "2025-08-14T18:59:00Z"
+  },
+  {
+    "id": "flota_028",
+    "name": "Flota 28 - Valledupar",
+    "status": "maintenance",
+    "position": [
+      10.590733,
+      -73.158266
+    ],
+    "createdAt": "2025-08-11T00:42:00Z"
+  },
+  {
+    "id": "flota_029",
+    "name": "Flota 29 - Manizales",
+    "status": "active",
+    "position": [
+      5.03935,
+      -75.505012
+    ],
+    "createdAt": "2025-08-08T19:04:00Z"
+  },
+  {
+    "id": "flota_030",
+    "name": "Flota 30 - Villavicencio",
+    "status": "maintenance",
+    "position": [
+      3.913817,
+      -73.608739
+    ],
+    "createdAt": "2025-08-08T12:04:00Z"
+  },
+  {
+    "id": "flota_031",
+    "name": "Flota 31 - Medellín",
+    "status": "inactive",
+    "position": [
+      6.116271,
+      -75.36089
+    ],
+    "createdAt": "2025-08-04T04:15:00Z"
+  },
+  {
+    "id": "flota_032",
+    "name": "Flota 32 - Santa Marta",
+    "status": "active",
+    "position": [
+      11.325289,
+      -74.341882
+    ],
+    "createdAt": "2025-08-25T06:36:00Z"
+  },
+  {
+    "id": "flota_033",
+    "name": "Flota 33 - Sincelejo",
+    "status": "inactive",
+    "position": [
+      9.176199,
+      -75.411314
+    ],
+    "createdAt": "2025-08-07T15:06:00Z"
+  },
+  {
+    "id": "flota_034",
+    "name": "Flota 34 - Montería",
+    "status": "maintenance",
+    "position": [
+      8.677149,
+      -75.927749
+    ],
+    "createdAt": "2025-08-03T09:41:00Z"
+  },
+  {
+    "id": "flota_035",
+    "name": "Flota 35 - Barranquilla",
+    "status": "active",
+    "position": [
+      10.748806,
+      -74.667193
+    ],
+    "createdAt": "2025-08-08T18:12:00Z"
+  },
+  {
+    "id": "flota_036",
+    "name": "Flota 36 - Valledupar",
+    "status": "inactive",
+    "position": [
+      10.437407,
+      -73.292259
+    ],
+    "createdAt": "2025-08-15T19:55:00Z"
+  },
+  {
+    "id": "flota_037",
+    "name": "Flota 37 - Cali",
+    "status": "maintenance",
+    "position": [
+      3.423165,
+      -76.351325
+    ],
+    "createdAt": "2025-08-04T13:41:00Z"
+  },
+  {
+    "id": "flota_038",
+    "name": "Flota 38 - Valledupar",
+    "status": "active",
+    "position": [
+      10.631114,
+      -73.018702
+    ],
+    "createdAt": "2025-08-07T01:31:00Z"
+  },
+  {
+    "id": "flota_039",
+    "name": "Flota 39 - Sincelejo",
+    "status": "active",
+    "position": [
+      9.161574,
+      -75.44728
+    ],
+    "createdAt": "2025-08-07T00:00:00Z"
+  },
+  {
+    "id": "flota_040",
+    "name": "Flota 40 - Pasto",
+    "status": "inactive",
+    "position": [
+      1.088502,
+      -77.142965
+    ],
+    "createdAt": "2025-08-11T01:44:00Z"
+  },
+  {
+    "id": "flota_041",
+    "name": "Flota 41 - Valledupar",
+    "status": "active",
+    "position": [
+      10.544036,
+      -73.259864
+    ],
+    "createdAt": "2025-08-10T18:03:00Z"
+  },
+  {
+    "id": "flota_042",
+    "name": "Flota 42 - Armenia",
+    "status": "inactive",
+    "position": [
+      4.651769,
+      -75.900621
+    ],
+    "createdAt": "2025-08-02T13:37:00Z"
+  },
+  {
+    "id": "flota_043",
+    "name": "Flota 43 - Sincelejo",
+    "status": "active",
+    "position": [
+      9.306125,
+      -75.22144
+    ],
+    "createdAt": "2025-08-03T04:05:00Z"
+  },
+  {
+    "id": "flota_044",
+    "name": "Flota 44 - Bucaramanga",
+    "status": "active",
+    "position": [
+      6.903561,
+      -73.33872
+    ],
+    "createdAt": "2025-08-13T15:56:00Z"
+  },
+  {
+    "id": "flota_045",
+    "name": "Flota 45 - Armenia",
+    "status": "maintenance",
+    "position": [
+      4.407008,
+      -75.63384
+    ],
+    "createdAt": "2025-08-04T01:42:00Z"
+  },
+  {
+    "id": "flota_046",
+    "name": "Flota 46 - Armenia",
+    "status": "inactive",
+    "position": [
+      4.566513,
+      -75.772915
+    ],
+    "createdAt": "2025-08-08T09:45:00Z"
+  },
+  {
+    "id": "flota_047",
+    "name": "Flota 47 - Villavicencio",
+    "status": "maintenance",
+    "position": [
+      4.022643,
+      -73.687807
+    ],
+    "createdAt": "2025-08-21T21:29:00Z"
+  },
+  {
+    "id": "flota_048",
+    "name": "Flota 48 - Villavicencio",
+    "status": "active",
+    "position": [
+      4.367809,
+      -73.417833
+    ],
+    "createdAt": "2025-08-16T07:36:00Z"
+  },
+  {
+    "id": "flota_049",
+    "name": "Flota 49 - Barranquilla",
+    "status": "inactive",
+    "position": [
+      10.75513,
+      -74.924723
+    ],
+    "createdAt": "2025-08-05T23:56:00Z"
+  },
+  {
+    "id": "flota_050",
+    "name": "Flota 50 - Cali",
+    "status": "active",
+    "position": [
+      3.641235,
+      -76.597236
+    ],
+    "createdAt": "2025-08-16T05:45:00Z"
+  },
+  {
+    "id": "flota_051",
+    "name": "Flota 51 - Ibagué",
+    "status": "maintenance",
+    "position": [
+      4.494739,
+      -74.988583
+    ],
+    "createdAt": "2025-08-17T12:42:00Z"
+  },
+  {
+    "id": "flota_052",
+    "name": "Flota 52 - Valledupar",
+    "status": "active",
+    "position": [
+      10.362789,
+      -73.171506
+    ],
+    "createdAt": "2025-08-09T15:56:00Z"
+  },
+  {
+    "id": "flota_053",
+    "name": "Flota 53 - Barranquilla",
+    "status": "inactive",
+    "position": [
+      11.089708,
+      -74.953576
+    ],
+    "createdAt": "2025-08-20T18:45:00Z"
+  },
+  {
+    "id": "flota_054",
+    "name": "Flota 54 - Villavicencio",
+    "status": "inactive",
+    "position": [
+      4.005099,
+      -73.568581
+    ],
+    "createdAt": "2025-08-18T03:16:00Z"
+  },
+  {
+    "id": "flota_055",
+    "name": "Flota 55 - Medellín",
+    "status": "inactive",
+    "position": [
+      6.047949,
+      -75.601812
+    ],
+    "createdAt": "2025-08-02T12:21:00Z"
+  },
+  {
+    "id": "flota_056",
+    "name": "Flota 56 - Cartagena",
+    "status": "maintenance",
+    "position": [
+      10.459557,
+      -75.598422
+    ],
+    "createdAt": "2025-08-16T05:45:00Z"
+  },
+  {
+    "id": "flota_057",
+    "name": "Flota 57 - Montería",
+    "status": "maintenance",
+    "position": [
+      8.780453,
+      -76.077363
+    ],
+    "createdAt": "2025-08-06T05:02:00Z"
+  },
+  {
+    "id": "flota_058",
+    "name": "Flota 58 - Manizales",
+    "status": "active",
+    "position": [
+      5.111555,
+      -75.689753
+    ],
+    "createdAt": "2025-08-02T21:23:00Z"
+  },
+  {
+    "id": "flota_059",
+    "name": "Flota 59 - Medellín",
+    "status": "active",
+    "position": [
+      6.451262,
+      -75.708562
+    ],
+    "createdAt": "2025-08-22T15:22:00Z"
+  },
+  {
+    "id": "flota_060",
+    "name": "Flota 60 - Valledupar",
+    "status": "maintenance",
+    "position": [
+      10.655167,
+      -73.300011
+    ],
+    "createdAt": "2025-08-24T16:59:00Z"
+  },
+  {
+    "id": "flota_061",
+    "name": "Flota 61 - Cúcuta",
+    "status": "active",
+    "position": [
+      8.076203,
+      -72.269697
+    ],
+    "createdAt": "2025-08-14T12:11:00Z"
+  },
+  {
+    "id": "flota_062",
+    "name": "Flota 62 - Villavicencio",
+    "status": "maintenance",
+    "position": [
+      4.294493,
+      -73.679843
+    ],
+    "createdAt": "2025-08-24T19:17:00Z"
+  },
+  {
+    "id": "flota_063",
+    "name": "Flota 63 - Bucaramanga",
+    "status": "active",
+    "position": [
+      7.262987,
+      -73.318652
+    ],
+    "createdAt": "2025-08-16T19:12:00Z"
+  },
+  {
+    "id": "flota_064",
+    "name": "Flota 64 - Neiva",
+    "status": "active",
+    "position": [
+      2.859329,
+      -75.120632
+    ],
+    "createdAt": "2025-08-08T12:42:00Z"
+  },
+  {
+    "id": "flota_065",
+    "name": "Flota 65 - Pereira",
+    "status": "active",
+    "position": [
+      4.762533,
+      -75.806798
+    ],
+    "createdAt": "2025-08-25T20:22:00Z"
+  },
+  {
+    "id": "flota_066",
+    "name": "Flota 66 - Riohacha",
+    "status": "maintenance",
+    "position": [
+      11.494239,
+      -72.666625
+    ],
+    "createdAt": "2025-08-11T12:07:00Z"
+  },
+  {
+    "id": "flota_067",
+    "name": "Flota 67 - Santa Marta",
+    "status": "inactive",
+    "position": [
+      11.080084,
+      -73.967733
+    ],
+    "createdAt": "2025-08-02T15:38:00Z"
+  },
+  {
+    "id": "flota_068",
+    "name": "Flota 68 - Montería",
+    "status": "inactive",
+    "position": [
+      8.672844,
+      -75.740086
+    ],
+    "createdAt": "2025-08-21T04:07:00Z"
+  },
+  {
+    "id": "flota_069",
+    "name": "Flota 69 - Pasto",
+    "status": "active",
+    "position": [
+      1.405652,
+      -77.439961
+    ],
+    "createdAt": "2025-08-24T01:00:00Z"
+  },
+  {
+    "id": "flota_070",
+    "name": "Flota 70 - Riohacha",
+    "status": "maintenance",
+    "position": [
+      11.757188,
+      -72.887974
+    ],
+    "createdAt": "2025-08-25T11:42:00Z"
+  },
+  {
+    "id": "flota_071",
+    "name": "Flota 71 - Pereira",
+    "status": "maintenance",
+    "position": [
+      4.745411,
+      -75.911113
+    ],
+    "createdAt": "2025-08-12T07:20:00Z"
+  },
+  {
+    "id": "flota_072",
+    "name": "Flota 72 - Barranquilla",
+    "status": "inactive",
+    "position": [
+      11.078377,
+      -74.881139
+    ],
+    "createdAt": "2025-08-23T01:20:00Z"
+  },
+  {
+    "id": "flota_073",
+    "name": "Flota 73 - Pasto",
+    "status": "active",
+    "position": [
+      1.304504,
+      -77.257794
+    ],
+    "createdAt": "2025-08-15T09:24:00Z"
+  },
+  {
+    "id": "flota_074",
+    "name": "Flota 74 - Bucaramanga",
+    "status": "maintenance",
+    "position": [
+      7.177057,
+      -73.222225
+    ],
+    "createdAt": "2025-08-01T21:18:00Z"
+  },
+  {
+    "id": "flota_075",
+    "name": "Flota 75 - Pereira",
+    "status": "maintenance",
+    "position": [
+      4.778244,
+      -75.656108
+    ],
+    "createdAt": "2025-08-12T02:28:00Z"
+  },
+  {
+    "id": "flota_076",
+    "name": "Flota 76 - Neiva",
+    "status": "maintenance",
+    "position": [
+      3.022314,
+      -75.275313
+    ],
+    "createdAt": "2025-08-07T09:05:00Z"
+  },
+  {
+    "id": "flota_077",
+    "name": "Flota 77 - Ibagué",
+    "status": "inactive",
+    "position": [
+      4.446626,
+      -75.16573
+    ],
+    "createdAt": "2025-08-03T19:43:00Z"
+  },
+  {
+    "id": "flota_078",
+    "name": "Flota 78 - Ibagué",
+    "status": "active",
+    "position": [
+      4.30122,
+      -75.382635
+    ],
+    "createdAt": "2025-08-02T19:30:00Z"
+  },
+  {
+    "id": "flota_079",
+    "name": "Flota 79 - Popayán",
+    "status": "inactive",
+    "position": [
+      2.619669,
+      -76.828286
+    ],
+    "createdAt": "2025-08-22T06:12:00Z"
+  },
+  {
+    "id": "flota_080",
+    "name": "Flota 80 - Pasto",
+    "status": "maintenance",
+    "position": [
+      1.203089,
+      -77.413008
+    ],
+    "createdAt": "2025-08-23T12:57:00Z"
+  },
+  {
+    "id": "flota_081",
+    "name": "Flota 81 - Barranquilla",
+    "status": "maintenance",
+    "position": [
+      11.10771,
+      -74.921879
+    ],
+    "createdAt": "2025-08-18T02:03:00Z"
+  },
+  {
+    "id": "flota_082",
+    "name": "Flota 82 - Valledupar",
+    "status": "inactive",
+    "position": [
+      10.337699,
+      -73.079032
+    ],
+    "createdAt": "2025-08-06T02:42:00Z"
+  },
+  {
+    "id": "flota_083",
+    "name": "Flota 83 - Riohacha",
+    "status": "inactive",
+    "position": [
+      11.788346,
+      -72.859474
+    ],
+    "createdAt": "2025-08-21T11:57:00Z"
+  },
+  {
+    "id": "flota_084",
+    "name": "Flota 84 - Riohacha",
+    "status": "inactive",
+    "position": [
+      11.50777,
+      -72.703773
+    ],
+    "createdAt": "2025-08-07T11:55:00Z"
+  },
+  {
+    "id": "flota_085",
+    "name": "Flota 85 - Sincelejo",
+    "status": "maintenance",
+    "position": [
+      9.279735,
+      -75.271912
+    ],
+    "createdAt": "2025-08-10T04:31:00Z"
+  },
+  {
+    "id": "flota_086",
+    "name": "Flota 86 - Cúcuta",
+    "status": "inactive",
+    "position": [
+      7.781199,
+      -72.719058
+    ],
+    "createdAt": "2025-08-08T20:21:00Z"
+  },
+  {
+    "id": "flota_087",
+    "name": "Flota 87 - Villavicencio",
+    "status": "active",
+    "position": [
+      4.349813,
+      -73.845411
+    ],
+    "createdAt": "2025-08-09T00:44:00Z"
+  },
+  {
+    "id": "flota_088",
+    "name": "Flota 88 - Cartagena",
+    "status": "inactive",
+    "position": [
+      10.49421,
+      -75.697286
+    ],
+    "createdAt": "2025-08-12T05:29:00Z"
+  },
+  {
+    "id": "flota_089",
+    "name": "Flota 89 - Montería",
+    "status": "inactive",
+    "position": [
+      8.531133,
+      -75.716854
+    ],
+    "createdAt": "2025-08-26T06:44:00Z"
+  },
+  {
+    "id": "flota_090",
+    "name": "Flota 90 - Bogotá",
+    "status": "inactive",
+    "position": [
+      4.889366,
+      -73.939303
+    ],
+    "createdAt": "2025-08-16T12:22:00Z"
+  },
+  {
+    "id": "flota_091",
+    "name": "Flota 91 - Ibagué",
+    "status": "inactive",
+    "position": [
+      4.565638,
+      -75.055476
+    ],
+    "createdAt": "2025-08-19T11:47:00Z"
+  },
+  {
+    "id": "flota_092",
+    "name": "Flota 92 - Valledupar",
+    "status": "inactive",
+    "position": [
+      10.613034,
+      -73.054294
+    ],
+    "createdAt": "2025-08-08T20:27:00Z"
+  },
+  {
+    "id": "flota_093",
+    "name": "Flota 93 - Sincelejo",
+    "status": "maintenance",
+    "position": [
+      9.069212,
+      -75.479735
+    ],
+    "createdAt": "2025-08-27T00:46:00Z"
+  },
+  {
+    "id": "flota_094",
+    "name": "Flota 94 - Bucaramanga",
+    "status": "maintenance",
+    "position": [
+      7.289553,
+      -72.912929
+    ],
+    "createdAt": "2025-08-18T12:58:00Z"
+  },
+  {
+    "id": "flota_095",
+    "name": "Flota 95 - Pasto",
+    "status": "active",
+    "position": [
+      1.251846,
+      -77.2035
+    ],
+    "createdAt": "2025-08-22T01:08:00Z"
+  },
+  {
+    "id": "flota_096",
+    "name": "Flota 96 - Neiva",
+    "status": "inactive",
+    "position": [
+      2.775365,
+      -75.400822
+    ],
+    "createdAt": "2025-08-08T02:20:00Z"
+  },
+  {
+    "id": "flota_097",
+    "name": "Flota 97 - Villavicencio",
+    "status": "inactive",
+    "position": [
+      4.283915,
+      -73.696137
+    ],
+    "createdAt": "2025-08-09T14:30:00Z"
+  },
+  {
+    "id": "flota_098",
+    "name": "Flota 98 - Bogotá",
+    "status": "inactive",
+    "position": [
+      4.835512,
+      -74.296057
+    ],
+    "createdAt": "2025-08-09T08:04:00Z"
+  },
+  {
+    "id": "flota_099",
+    "name": "Flota 99 - Medellín",
+    "status": "active",
+    "position": [
+      6.378917,
+      -75.338794
+    ],
+    "createdAt": "2025-08-02T07:09:00Z"
+  },
+  {
+    "id": "flota_100",
+    "name": "Flota 100 - Cúcuta",
+    "status": "maintenance",
+    "position": [
+      7.70701,
+      -72.423071
+    ],
+    "createdAt": "2025-08-08T02:44:00Z"
+  }
+]

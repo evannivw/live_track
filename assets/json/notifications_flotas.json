@@ -1,0 +1,402 @@
+[
+  {
+    "id": "notif_001",
+    "title": "Sin señal GPS",
+    "message": "Mantenimiento preventivo requerido en 5 km.",
+    "flotaId": "flota_031",
+    "flotaName": "Flota 31 - Medellín",
+    "createdAt": "2025-07-31T08:10:56Z"
+  },
+  {
+    "id": "notif_002",
+    "title": "Entrada a geocerca",
+    "message": "Batería por debajo de 5% de carga.",
+    "flotaId": "flota_064",
+    "flotaName": "Flota 64 - Neiva",
+    "createdAt": "2025-08-17T08:59:27Z"
+  },
+  {
+    "id": "notif_003",
+    "title": "Motor apagado",
+    "message": "Detectado movimiento sin autorización.",
+    "flotaId": "flota_069",
+    "flotaName": "Flota 69 - Pasto",
+    "createdAt": "2025-07-30T19:45:41Z"
+  },
+  {
+    "id": "notif_004",
+    "title": "Motor apagado",
+    "message": "Salió de la geocerca 'Bodega 3'.",
+    "flotaId": "flota_053",
+    "flotaName": "Flota 53 - Barranquilla",
+    "createdAt": "2025-07-17T15:19:40Z"
+  },
+  {
+    "id": "notif_005",
+    "title": "Alerta de velocidad",
+    "message": "El vehículo superó el límite de 40 km/h.",
+    "flotaId": "flota_051",
+    "flotaName": "Flota 51 - Ibagué",
+    "createdAt": "2025-07-26T11:55:04Z"
+  },
+  {
+    "id": "notif_006",
+    "title": "Motor apagado",
+    "message": "Salió de la geocerca 'Planta Norte'.",
+    "flotaId": "flota_072",
+    "flotaName": "Flota 72 - Barranquilla",
+    "createdAt": "2025-08-18T02:21:34Z"
+  },
+  {
+    "id": "notif_007",
+    "title": "Pánico activado",
+    "message": "El motor se encendió.",
+    "flotaId": "flota_100",
+    "flotaName": "Flota 100 - Cúcuta",
+    "createdAt": "2025-08-07T20:40:17Z"
+  },
+  {
+    "id": "notif_008",
+    "title": "Motor apagado",
+    "message": "El motor se apagó.",
+    "flotaId": "flota_022",
+    "flotaName": "Flota 22 - Santa Marta",
+    "createdAt": "2025-08-11T12:05:55Z"
+  },
+  {
+    "id": "notif_009",
+    "title": "Mantenimiento programado",
+    "message": "Salió de la geocerca 'Bodega 3'.",
+    "flotaId": "flota_026",
+    "flotaName": "Flota 26 - Cali",
+    "createdAt": "2025-07-19T06:54:40Z"
+  },
+  {
+    "id": "notif_010",
+    "title": "Movimiento no autorizado",
+    "message": "Ingresó a la geocerca 'Patio Central'.",
+    "flotaId": "flota_096",
+    "flotaName": "Flota 96 - Neiva",
+    "createdAt": "2025-07-22T14:59:34Z"
+  },
+  {
+    "id": "notif_011",
+    "title": "Entrada a geocerca",
+    "message": "El vehículo superó el límite de 70 km/h.",
+    "flotaId": "flota_070",
+    "flotaName": "Flota 70 - Riohacha",
+    "createdAt": "2025-07-23T10:03:39Z"
+  },
+  {
+    "id": "notif_012",
+    "title": "Exceso de ralentí",
+    "message": "El motor se encendió.",
+    "flotaId": "flota_046",
+    "flotaName": "Flota 46 - Armenia",
+    "createdAt": "2025-08-21T06:06:34Z"
+  },
+  {
+    "id": "notif_013",
+    "title": "Salida de geocerca",
+    "message": "Batería por debajo de 5% de carga.",
+    "flotaId": "flota_079",
+    "flotaName": "Flota 79 - Popayán",
+    "createdAt": "2025-08-23T15:03:07Z"
+  },
+  {
+    "id": "notif_014",
+    "title": "Pánico activado",
+    "message": "El motor se encendió.",
+    "flotaId": "flota_081",
+    "flotaName": "Flota 81 - Barranquilla",
+    "createdAt": "2025-08-20T04:49:20Z"
+  },
+  {
+    "id": "notif_015",
+    "title": "Salida de geocerca",
+    "message": "Sin señal de GPS por más de 70 minutos.",
+    "flotaId": "flota_015",
+    "flotaName": "Flota 15 - Sincelejo",
+    "createdAt": "2025-07-26T13:14:39Z"
+  },
+  {
+    "id": "notif_016",
+    "title": "Movimiento no autorizado",
+    "message": "Ingresó a la geocerca 'Bodega 3'.",
+    "flotaId": "flota_049",
+    "flotaName": "Flota 49 - Barranquilla",
+    "createdAt": "2025-08-05T21:07:17Z"
+  },
+  {
+    "id": "notif_017",
+    "title": "Parada prolongada",
+    "message": "Ingresó a la geocerca 'Patio Central'.",
+    "flotaId": "flota_094",
+    "flotaName": "Flota 94 - Bucaramanga",
+    "createdAt": "2025-08-21T21:49:40Z"
+  },
+  {
+    "id": "notif_018",
+    "title": "Batería baja",
+    "message": "El motor se apagó.",
+    "flotaId": "flota_057",
+    "flotaName": "Flota 57 - Montería",
+    "createdAt": "2025-07-17T13:07:42Z"
+  },
+  {
+    "id": "notif_019",
+    "title": "Pánico activado",
+    "message": "El vehículo superó el límite de 30 km/h.",
+    "flotaId": "flota_075",
+    "flotaName": "Flota 75 - Pereira",
+    "createdAt": "2025-07-21T18:39:38Z"
+  },
+  {
+    "id": "notif_020",
+    "title": "Motor apagado",
+    "message": "Mantenimiento preventivo requerido en 30 km.",
+    "flotaId": "flota_002",
+    "flotaName": "Flota 2 - Valledupar",
+    "createdAt": "2025-07-21T08:00:36Z"
+  },
+  {
+    "id": "notif_021",
+    "title": "Pánico activado",
+    "message": "Ingresó a la geocerca 'Cliente ACME'.",
+    "flotaId": "flota_064",
+    "flotaName": "Flota 64 - Neiva",
+    "createdAt": "2025-07-23T07:01:15Z"
+  },
+  {
+    "id": "notif_022",
+    "title": "Movimiento no autorizado",
+    "message": "Batería por debajo de 40% de carga.",
+    "flotaId": "flota_078",
+    "flotaName": "Flota 78 - Ibagué",
+    "createdAt": "2025-08-23T10:27:43Z"
+  },
+  {
+    "id": "notif_023",
+    "title": "Pánico activado",
+    "message": "El motor se apagó.",
+    "flotaId": "flota_005",
+    "flotaName": "Flota 5 - Montería",
+    "createdAt": "2025-08-10T22:26:19Z"
+  },
+  {
+    "id": "notif_024",
+    "title": "Exceso de ralentí",
+    "message": "Detectado movimiento sin autorización.",
+    "flotaId": "flota_020",
+    "flotaName": "Flota 20 - Bogotá",
+    "createdAt": "2025-08-20T04:56:17Z"
+  },
+  {
+    "id": "notif_025",
+    "title": "Pánico activado",
+    "message": "Mantenimiento preventivo requerido en 20 km.",
+    "flotaId": "flota_052",
+    "flotaName": "Flota 52 - Valledupar",
+    "createdAt": "2025-08-09T18:38:36Z"
+  },
+  {
+    "id": "notif_026",
+    "title": "Alerta de velocidad",
+    "message": "El motor se encendió.",
+    "flotaId": "flota_053",
+    "flotaName": "Flota 53 - Barranquilla",
+    "createdAt": "2025-07-23T06:52:55Z"
+  },
+  {
+    "id": "notif_027",
+    "title": "Entrada a geocerca",
+    "message": "Botón de pánico presionado por el conductor.",
+    "flotaId": "flota_073",
+    "flotaName": "Flota 73 - Pasto",
+    "createdAt": "2025-07-16T17:27:19Z"
+  },
+  {
+    "id": "notif_028",
+    "title": "Salida de geocerca",
+    "message": "Salió de la geocerca 'Planta Norte'.",
+    "flotaId": "flota_026",
+    "flotaName": "Flota 26 - Cali",
+    "createdAt": "2025-07-27T16:37:45Z"
+  },
+  {
+    "id": "notif_029",
+    "title": "Parada prolongada",
+    "message": "Botón de pánico presionado por el conductor.",
+    "flotaId": "flota_024",
+    "flotaName": "Flota 24 - Bogotá",
+    "createdAt": "2025-08-15T13:48:53Z"
+  },
+  {
+    "id": "notif_030",
+    "title": "Mantenimiento programado",
+    "message": "Botón de pánico presionado por el conductor.",
+    "flotaId": "flota_005",
+    "flotaName": "Flota 5 - Montería",
+    "createdAt": "2025-07-23T08:58:48Z"
+  },
+  {
+    "id": "notif_031",
+    "title": "Motor encendido",
+    "message": "Batería por debajo de 50% de carga.",
+    "flotaId": "flota_076",
+    "flotaName": "Flota 76 - Neiva",
+    "createdAt": "2025-08-07T13:06:37Z"
+  },
+  {
+    "id": "notif_032",
+    "title": "Entrada a geocerca",
+    "message": "Batería por debajo de 70% de carga.",
+    "flotaId": "flota_079",
+    "flotaName": "Flota 79 - Popayán",
+    "createdAt": "2025-07-26T15:01:22Z"
+  },
+  {
+    "id": "notif_033",
+    "title": "Parada prolongada",
+    "message": "Sin señal de GPS por más de 20 minutos.",
+    "flotaId": "flota_094",
+    "flotaName": "Flota 94 - Bucaramanga",
+    "createdAt": "2025-08-05T12:22:08Z"
+  },
+  {
+    "id": "notif_034",
+    "title": "Motor encendido",
+    "message": "Salió de la geocerca 'Terminal Sur'.",
+    "flotaId": "flota_079",
+    "flotaName": "Flota 79 - Popayán",
+    "createdAt": "2025-08-20T04:00:34Z"
+  },
+  {
+    "id": "notif_035",
+    "title": "Salida de geocerca",
+    "message": "Detectado movimiento sin autorización.",
+    "flotaId": "flota_032",
+    "flotaName": "Flota 32 - Santa Marta",
+    "createdAt": "2025-08-15T23:01:15Z"
+  },
+  {
+    "id": "notif_036",
+    "title": "Movimiento no autorizado",
+    "message": "Mantenimiento preventivo requerido en 70 km.",
+    "flotaId": "flota_067",
+    "flotaName": "Flota 67 - Santa Marta",
+    "createdAt": "2025-07-26T17:29:30Z"
+  },
+  {
+    "id": "notif_037",
+    "title": "Mantenimiento programado",
+    "message": "El motor se encendió.",
+    "flotaId": "flota_031",
+    "flotaName": "Flota 31 - Medellín",
+    "createdAt": "2025-08-09T18:56:19Z"
+  },
+  {
+    "id": "notif_038",
+    "title": "Entrada a geocerca",
+    "message": "El motor se encendió.",
+    "flotaId": "flota_072",
+    "flotaName": "Flota 72 - Barranquilla",
+    "createdAt": "2025-08-21T13:45:28Z"
+  },
+  {
+    "id": "notif_039",
+    "title": "Batería baja",
+    "message": "Sin señal de GPS por más de 20 minutos.",
+    "flotaId": "flota_073",
+    "flotaName": "Flota 73 - Pasto",
+    "createdAt": "2025-08-22T20:27:00Z"
+  },
+  {
+    "id": "notif_040",
+    "title": "Alerta de velocidad",
+    "message": "El vehículo superó el límite de 50 km/h.",
+    "flotaId": "flota_081",
+    "flotaName": "Flota 81 - Barranquilla",
+    "createdAt": "2025-07-30T15:13:27Z"
+  },
+  {
+    "id": "notif_041",
+    "title": "Alerta de velocidad",
+    "message": "Detectado movimiento sin autorización.",
+    "flotaId": "flota_025",
+    "flotaName": "Flota 25 - Medellín",
+    "createdAt": "2025-07-28T08:30:23Z"
+  },
+  {
+    "id": "notif_042",
+    "title": "Motor apagado",
+    "message": "El vehículo superó el límite de 80 km/h.",
+    "flotaId": "flota_086",
+    "flotaName": "Flota 86 - Cúcuta",
+    "createdAt": "2025-07-29T16:05:13Z"
+  },
+  {
+    "id": "notif_043",
+    "title": "Exceso de ralentí",
+    "message": "Batería por debajo de 10% de carga.",
+    "flotaId": "flota_026",
+    "flotaName": "Flota 26 - Cali",
+    "createdAt": "2025-08-01T01:27:07Z"
+  },
+  {
+    "id": "notif_044",
+    "title": "Salida de geocerca",
+    "message": "Ralentí excedido por 30 minutos.",
+    "flotaId": "flota_050",
+    "flotaName": "Flota 50 - Cali",
+    "createdAt": "2025-07-27T23:21:44Z"
+  },
+  {
+    "id": "notif_045",
+    "title": "Sin señal GPS",
+    "message": "El vehículo superó el límite de 5 km/h.",
+    "flotaId": "flota_026",
+    "flotaName": "Flota 26 - Cali",
+    "createdAt": "2025-07-26T13:50:00Z"
+  },
+  {
+    "id": "notif_046",
+    "title": "Parada prolongada",
+    "message": "Ingresó a la geocerca 'Planta Norte'.",
+    "flotaId": "flota_019",
+    "flotaName": "Flota 19 - Popayán",
+    "createdAt": "2025-08-01T18:04:31Z"
+  },
+  {
+    "id": "notif_047",
+    "title": "Pánico activado",
+    "message": "El motor se encendió.",
+    "flotaId": "flota_041",
+    "flotaName": "Flota 41 - Valledupar",
+    "createdAt": "2025-08-22T04:31:46Z"
+  },
+  {
+    "id": "notif_048",
+    "title": "Alerta de velocidad",
+    "message": "El vehículo superó el límite de 15 km/h.",
+    "flotaId": "flota_010",
+    "flotaName": "Flota 10 - Neiva",
+    "createdAt": "2025-07-26T02:47:15Z"
+  },
+  {
+    "id": "notif_049",
+    "title": "Parada prolongada",
+    "message": "El motor se apagó.",
+    "flotaId": "flota_044",
+    "flotaName": "Flota 44 - Bucaramanga",
+    "createdAt": "2025-08-05T09:42:40Z"
+  },
+  {
+    "id": "notif_050",
+    "title": "Movimiento no autorizado",
+    "message": "Botón de pánico presionado por el conductor.",
+    "flotaId": "flota_015",
+    "flotaName": "Flota 15 - Sincelejo",
+    "createdAt": "2025-08-08T11:14:38Z"
+  }
+]
