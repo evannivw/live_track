@@ -15,7 +15,7 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$NotificationsModel {
 
- String get id; String get title; String get message; String get flotaId; String get flotaName; DateTime? get createdAt;
+ String get id; String get title; String get message; String get flotaId; String get flotaName; DateTime get createdAt;
 /// Create a copy of NotificationsModel
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -48,7 +48,7 @@ abstract mixin class $NotificationsModelCopyWith<$Res>  {
   factory $NotificationsModelCopyWith(NotificationsModel value, $Res Function(NotificationsModel) _then) = _$NotificationsModelCopyWithImpl;
 @useResult
 $Res call({
- String id, String title, String message, String flotaId, String flotaName, DateTime? createdAt
+ String id, String title, String message, String flotaId, String flotaName, DateTime createdAt
 });
 
 
@@ -65,15 +65,15 @@ class _$NotificationsModelCopyWithImpl<$Res>
 
 /// Create a copy of NotificationsModel
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? title = null,Object? message = null,Object? flotaId = null,Object? flotaName = null,Object? createdAt = freezed,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? title = null,Object? message = null,Object? flotaId = null,Object? flotaName = null,Object? createdAt = null,}) {
   return _then(_self.copyWith(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,title: null == title ? _self.title : title // ignore: cast_nullable_to_non_nullable
 as String,message: null == message ? _self.message : message // ignore: cast_nullable_to_non_nullable
 as String,flotaId: null == flotaId ? _self.flotaId : flotaId // ignore: cast_nullable_to_non_nullable
 as String,flotaName: null == flotaName ? _self.flotaName : flotaName // ignore: cast_nullable_to_non_nullable
-as String,createdAt: freezed == createdAt ? _self.createdAt : createdAt // ignore: cast_nullable_to_non_nullable
-as DateTime?,
+as String,createdAt: null == createdAt ? _self.createdAt : createdAt // ignore: cast_nullable_to_non_nullable
+as DateTime,
   ));
 }
 
@@ -158,7 +158,7 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String title,  String message,  String flotaId,  String flotaName,  DateTime? createdAt)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String title,  String message,  String flotaId,  String flotaName,  DateTime createdAt)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _NotificationsModel() when $default != null:
 return $default(_that.id,_that.title,_that.message,_that.flotaId,_that.flotaName,_that.createdAt);case _:
@@ -179,7 +179,7 @@ return $default(_that.id,_that.title,_that.message,_that.flotaId,_that.flotaName
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String title,  String message,  String flotaId,  String flotaName,  DateTime? createdAt)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String title,  String message,  String flotaId,  String flotaName,  DateTime createdAt)  $default,) {final _that = this;
 switch (_that) {
 case _NotificationsModel():
 return $default(_that.id,_that.title,_that.message,_that.flotaId,_that.flotaName,_that.createdAt);case _:
@@ -199,7 +199,7 @@ return $default(_that.id,_that.title,_that.message,_that.flotaId,_that.flotaName
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String title,  String message,  String flotaId,  String flotaName,  DateTime? createdAt)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String title,  String message,  String flotaId,  String flotaName,  DateTime createdAt)?  $default,) {final _that = this;
 switch (_that) {
 case _NotificationsModel() when $default != null:
 return $default(_that.id,_that.title,_that.message,_that.flotaId,_that.flotaName,_that.createdAt);case _:
@@ -214,7 +214,7 @@ return $default(_that.id,_that.title,_that.message,_that.flotaId,_that.flotaName
 
 @JsonSerializable(explicitToJson: true)
 class _NotificationsModel implements NotificationsModel {
-  const _NotificationsModel({required this.id, required this.title, required this.message, required this.flotaId, required this.flotaName, this.createdAt});
+  const _NotificationsModel({required this.id, required this.title, required this.message, required this.flotaId, required this.flotaName, required this.createdAt});
   factory _NotificationsModel.fromJson(Map<String, dynamic> json) => _$NotificationsModelFromJson(json);
 
 @override final  String id;
@@ -222,7 +222,7 @@ class _NotificationsModel implements NotificationsModel {
 @override final  String message;
 @override final  String flotaId;
 @override final  String flotaName;
-@override final  DateTime? createdAt;
+@override final  DateTime createdAt;
 
 /// Create a copy of NotificationsModel
 /// with the given fields replaced by the non-null parameter values.
@@ -257,7 +257,7 @@ abstract mixin class _$NotificationsModelCopyWith<$Res> implements $Notification
   factory _$NotificationsModelCopyWith(_NotificationsModel value, $Res Function(_NotificationsModel) _then) = __$NotificationsModelCopyWithImpl;
 @override @useResult
 $Res call({
- String id, String title, String message, String flotaId, String flotaName, DateTime? createdAt
+ String id, String title, String message, String flotaId, String flotaName, DateTime createdAt
 });
 
 
@@ -274,15 +274,15 @@ class __$NotificationsModelCopyWithImpl<$Res>
 
 /// Create a copy of NotificationsModel
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? title = null,Object? message = null,Object? flotaId = null,Object? flotaName = null,Object? createdAt = freezed,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? title = null,Object? message = null,Object? flotaId = null,Object? flotaName = null,Object? createdAt = null,}) {
   return _then(_NotificationsModel(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,title: null == title ? _self.title : title // ignore: cast_nullable_to_non_nullable
 as String,message: null == message ? _self.message : message // ignore: cast_nullable_to_non_nullable
 as String,flotaId: null == flotaId ? _self.flotaId : flotaId // ignore: cast_nullable_to_non_nullable
 as String,flotaName: null == flotaName ? _self.flotaName : flotaName // ignore: cast_nullable_to_non_nullable
-as String,createdAt: freezed == createdAt ? _self.createdAt : createdAt // ignore: cast_nullable_to_non_nullable
-as DateTime?,
+as String,createdAt: null == createdAt ? _self.createdAt : createdAt // ignore: cast_nullable_to_non_nullable
+as DateTime,
   ));
 }
 

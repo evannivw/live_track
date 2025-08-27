@@ -5,6 +5,7 @@ import 'package:live_track/blocs/controller_cubit/controller_cubit.dart';
 import 'package:live_track/blocs/controller_cubit/controller_state.dart';
 import 'package:live_track/config/images_helper.dart';
 import 'package:live_track/extensions/context_extension.dart';
+import 'package:live_track/extensions/datetime_extension.dart';
 import 'package:live_track/helpers/global_data_helper.dart';
 import 'package:live_track/helpers/responsive_ui.dart';
 import 'package:get/get.dart' as gt;
@@ -45,31 +46,40 @@ class Local extends ResponsiveUI<NotificacionesPage> {
   Widget desktopView(BuildContext context) {
     return BlocBuilder<ControllerCubit, ControllerState>(
       builder: (context, state) {
-        return Scaffold(
-          backgroundColor: white,
-          appBar: AppBar(
-            backgroundColor: green1,
-            foregroundColor: white,
-            title: Text(
-              "Notificaciones",
-              style: context.textTheme.titleMedium?.copyWith(color: white),
-            ),
-            actions: [
-              IconButton(
-                onPressed: () {
-                  context.controllerCubit.loadNitificaciones().then((v) {
-                    SnackbarHelper().showSuccessMessage(
-                      "Notificaciones cargadas nuevamente",
-                      context,
-                    );
-                    setState(() {});
-                  });
-                },
-                icon: Icon(Icons.replay_outlined, color: white, size: 24),
+        return WillPopScope(
+          onWillPop: () async {
+            context.controllerCubit.clearNotificationsSearch();
+            return true;
+          },
+          child: Scaffold(
+            backgroundColor: white,
+            appBar: AppBar(
+              backgroundColor: green1,
+              foregroundColor: white,
+              title: Text(
+                "Notificaciones",
+                style: context.textTheme.titleMedium?.copyWith(color: white),
               ),
-            ],
+              actions: [
+                IconButton(
+                  onPressed: () {
+                    firstDatePicker = null;
+                    lastDatePicker = null;
+                    context.controllerCubit.clearNotificationsSearch();
+                    context.controllerCubit.loadNitificaciones().then((v) {
+                      SnackbarHelper().showSuccessMessage(
+                        "Notificaciones cargadas nuevamente",
+                        context,
+                      );
+                      setState(() {});
+                    });
+                  },
+                  icon: Icon(Icons.replay_outlined, color: white, size: 24),
+                ),
+              ],
+            ),
+            body: Column(children: [dateFilterWidget(), listWidget()]),
           ),
-          body: Column(children: [dateFilterWidget(), listWidget()]),
         );
       },
     );
@@ -92,7 +102,23 @@ class Local extends ResponsiveUI<NotificacionesPage> {
             color: green1,
             onTap: () {
               if (firstDatePicker != null && lastDatePicker != null) {
-                
+                if (firstDatePicker!.millisecondsSinceEpoch <
+                    lastDatePicker!.millisecondsSinceEpoch) {
+                  context.controllerCubit.searchNotificaciones(
+                    firstDatePicker!,
+                    lastDatePicker!,
+                  );
+                } else {
+                  SnackbarHelper().showErrorMessage(
+                    "Fechas de busqueda incorrectas, ",
+                    context,
+                  );
+                }
+              } else {
+                SnackbarHelper().showErrorMessage(
+                  "Selecciona ambas fechas para realizar la busqueda",
+                  context,
+                );
               }
             },
           ),
@@ -111,11 +137,21 @@ class Local extends ResponsiveUI<NotificacionesPage> {
           } else {
             lastDatePicker = date;
           }
+          setState(() {});
         },
         child: SizedBox(
           width: 120,
           child: Column(
-            children: [vspacer(8), Text("fecha"), expandedSpacer(), Divider()],
+            children: [
+              vspacer(8),
+              Text(
+                firstDate
+                    ? firstDatePicker?.toShortDate() ?? "Inicio"
+                    : lastDatePicker?.toShortDate() ?? "Fin",
+              ),
+              expandedSpacer(),
+              Divider(),
+            ],
           ),
         ),
       ),
@@ -123,16 +159,18 @@ class Local extends ResponsiveUI<NotificacionesPage> {
   }
 
   Widget listWidget() {
+    final list =
+        context.controllerState.searchNotificacionesList ??
+        context.controllerState.notificacionesList;
     return Expanded(
       child: Padding(
         padding: smallMarginMobile,
         child: ListView.builder(
           padding: EdgeInsets.only(top: 16, bottom: 200),
-          itemCount: context.controllerState.notificacionesList.length,
+          itemCount: list.length,
           shrinkWrap: true,
           itemBuilder: (BuildContext context, int index) {
-            final notification =
-                context.controllerState.notificacionesList[index];
+            final notification = list[index];
             return notificationsCard(notification);
           },
         ),
@@ -163,7 +201,7 @@ class Local extends ResponsiveUI<NotificacionesPage> {
                       height: 1,
                     ),
                   ),
-                  Text("Contador de alertas"),
+                  Text(notification.createdAt.toPrettyString()),
                   vspacer(8),
                   SizedBox(
                     width: Get.width - 200,

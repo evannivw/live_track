@@ -13,10 +13,7 @@ _NotificationsModel _$NotificationsModelFromJson(Map<String, dynamic> json) =>
       message: json['message'] as String,
       flotaId: json['flotaId'] as String,
       flotaName: json['flotaName'] as String,
-      createdAt:
-          json['createdAt'] == null
-              ? null
-              : DateTime.parse(json['createdAt'] as String),
+      createdAt: DateTime.parse(json['createdAt'] as String),
     );
 
 Map<String, dynamic> _$NotificationsModelToJson(_NotificationsModel instance) =>
@@ -26,5 +23,5 @@ Map<String, dynamic> _$NotificationsModelToJson(_NotificationsModel instance) =>
       'message': instance.message,
       'flotaId': instance.flotaId,
       'flotaName': instance.flotaName,
-      'createdAt': instance.createdAt?.toIso8601String(),
+      'createdAt': instance.createdAt.toIso8601String(),
     };

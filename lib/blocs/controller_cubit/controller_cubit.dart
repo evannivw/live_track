@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:live_track/blocs/controller_cubit/controller_state.dart';
@@ -85,5 +86,21 @@ class ControllerCubit extends Cubit<ControllerState> {
     );
     debugPrint("searching lugares: $query : ${l.length}");
     emit(state.copyWith(searchLugaresList: l));
+  }
+
+  void searchNotificaciones(DateTime first, DateTime last) {
+    List<NotificationsModel> l = List.from(
+      state.notificacionesList.where(
+        (e) =>
+            e.createdAt.millisecondsSinceEpoch <= last.millisecondsSinceEpoch &&
+            e.createdAt.millisecondsSinceEpoch >= first.millisecondsSinceEpoch,
+      ),
+    );
+    debugPrint("searching notificaciones: ${l.length}");
+    emit(state.copyWith(searchNotificacionesList: l));
+  }
+
+  void clearNotificationsSearch() {
+    emit(state.copyWith(searchNotificacionesList: null));
   }
 }

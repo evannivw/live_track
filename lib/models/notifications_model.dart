@@ -13,7 +13,7 @@ abstract class NotificationsModel with _$NotificationsModel {
     required String message,
     required String flotaId,
     required String flotaName,
-    DateTime? createdAt,
+    required DateTime createdAt,
   }) = _NotificationsModel;
 
   factory NotificationsModel.fromJson(Map<String, dynamic> json) =>

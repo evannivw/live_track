@@ -14,7 +14,7 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$ControllerState {
 
- List<LugaresModel> get lugaresList; List<NotificationsModel> get notificacionesList; List<FlotaModel> get flotasList; List<FlotaModel>? get searchFlotasList; List<LugaresModel>? get searchLugaresList; List<FlotaModel>? get searchNotificacionesList;
+ List<LugaresModel> get lugaresList; List<NotificationsModel> get notificacionesList; List<FlotaModel> get flotasList; List<FlotaModel>? get searchFlotasList; List<LugaresModel>? get searchLugaresList; List<NotificationsModel>? get searchNotificacionesList;
 /// Create a copy of ControllerState
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -45,7 +45,7 @@ abstract mixin class $ControllerStateCopyWith<$Res>  {
   factory $ControllerStateCopyWith(ControllerState value, $Res Function(ControllerState) _then) = _$ControllerStateCopyWithImpl;
 @useResult
 $Res call({
- List<LugaresModel> lugaresList, List<NotificationsModel> notificacionesList, List<FlotaModel> flotasList, List<FlotaModel>? searchFlotasList, List<LugaresModel>? searchLugaresList, List<FlotaModel>? searchNotificacionesList
+ List<LugaresModel> lugaresList, List<NotificationsModel> notificacionesList, List<FlotaModel> flotasList, List<FlotaModel>? searchFlotasList, List<LugaresModel>? searchLugaresList, List<NotificationsModel>? searchNotificacionesList
 });
 
 
@@ -70,7 +70,7 @@ as List<NotificationsModel>,flotasList: null == flotasList ? _self.flotasList : 
 as List<FlotaModel>,searchFlotasList: freezed == searchFlotasList ? _self.searchFlotasList : searchFlotasList // ignore: cast_nullable_to_non_nullable
 as List<FlotaModel>?,searchLugaresList: freezed == searchLugaresList ? _self.searchLugaresList : searchLugaresList // ignore: cast_nullable_to_non_nullable
 as List<LugaresModel>?,searchNotificacionesList: freezed == searchNotificacionesList ? _self.searchNotificacionesList : searchNotificacionesList // ignore: cast_nullable_to_non_nullable
-as List<FlotaModel>?,
+as List<NotificationsModel>?,
   ));
 }
 
@@ -155,7 +155,7 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( List<LugaresModel> lugaresList,  List<NotificationsModel> notificacionesList,  List<FlotaModel> flotasList,  List<FlotaModel>? searchFlotasList,  List<LugaresModel>? searchLugaresList,  List<FlotaModel>? searchNotificacionesList)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( List<LugaresModel> lugaresList,  List<NotificationsModel> notificacionesList,  List<FlotaModel> flotasList,  List<FlotaModel>? searchFlotasList,  List<LugaresModel>? searchLugaresList,  List<NotificationsModel>? searchNotificacionesList)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _ControllerState() when $default != null:
 return $default(_that.lugaresList,_that.notificacionesList,_that.flotasList,_that.searchFlotasList,_that.searchLugaresList,_that.searchNotificacionesList);case _:
@@ -176,7 +176,7 @@ return $default(_that.lugaresList,_that.notificacionesList,_that.flotasList,_tha
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( List<LugaresModel> lugaresList,  List<NotificationsModel> notificacionesList,  List<FlotaModel> flotasList,  List<FlotaModel>? searchFlotasList,  List<LugaresModel>? searchLugaresList,  List<FlotaModel>? searchNotificacionesList)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( List<LugaresModel> lugaresList,  List<NotificationsModel> notificacionesList,  List<FlotaModel> flotasList,  List<FlotaModel>? searchFlotasList,  List<LugaresModel>? searchLugaresList,  List<NotificationsModel>? searchNotificacionesList)  $default,) {final _that = this;
 switch (_that) {
 case _ControllerState():
 return $default(_that.lugaresList,_that.notificacionesList,_that.flotasList,_that.searchFlotasList,_that.searchLugaresList,_that.searchNotificacionesList);case _:
@@ -196,7 +196,7 @@ return $default(_that.lugaresList,_that.notificacionesList,_that.flotasList,_tha
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( List<LugaresModel> lugaresList,  List<NotificationsModel> notificacionesList,  List<FlotaModel> flotasList,  List<FlotaModel>? searchFlotasList,  List<LugaresModel>? searchLugaresList,  List<FlotaModel>? searchNotificacionesList)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( List<LugaresModel> lugaresList,  List<NotificationsModel> notificacionesList,  List<FlotaModel> flotasList,  List<FlotaModel>? searchFlotasList,  List<LugaresModel>? searchLugaresList,  List<NotificationsModel>? searchNotificacionesList)?  $default,) {final _that = this;
 switch (_that) {
 case _ControllerState() when $default != null:
 return $default(_that.lugaresList,_that.notificacionesList,_that.flotasList,_that.searchFlotasList,_that.searchLugaresList,_that.searchNotificacionesList);case _:
@@ -211,7 +211,7 @@ return $default(_that.lugaresList,_that.notificacionesList,_that.flotasList,_tha
 
 @JsonSerializable(explicitToJson: true)
 class _ControllerState implements ControllerState {
-  const _ControllerState({required final  List<LugaresModel> lugaresList, required final  List<NotificationsModel> notificacionesList, required final  List<FlotaModel> flotasList, final  List<FlotaModel>? searchFlotasList, final  List<LugaresModel>? searchLugaresList, final  List<FlotaModel>? searchNotificacionesList}): _lugaresList = lugaresList,_notificacionesList = notificacionesList,_flotasList = flotasList,_searchFlotasList = searchFlotasList,_searchLugaresList = searchLugaresList,_searchNotificacionesList = searchNotificacionesList;
+  const _ControllerState({required final  List<LugaresModel> lugaresList, required final  List<NotificationsModel> notificacionesList, required final  List<FlotaModel> flotasList, final  List<FlotaModel>? searchFlotasList, final  List<LugaresModel>? searchLugaresList, final  List<NotificationsModel>? searchNotificacionesList}): _lugaresList = lugaresList,_notificacionesList = notificacionesList,_flotasList = flotasList,_searchFlotasList = searchFlotasList,_searchLugaresList = searchLugaresList,_searchNotificacionesList = searchNotificacionesList;
   
 
  final  List<LugaresModel> _lugaresList;
@@ -253,8 +253,8 @@ class _ControllerState implements ControllerState {
   return EqualUnmodifiableListView(value);
 }
 
- final  List<FlotaModel>? _searchNotificacionesList;
-@override List<FlotaModel>? get searchNotificacionesList {
+ final  List<NotificationsModel>? _searchNotificacionesList;
+@override List<NotificationsModel>? get searchNotificacionesList {
   final value = _searchNotificacionesList;
   if (value == null) return null;
   if (_searchNotificacionesList is EqualUnmodifiableListView) return _searchNotificacionesList;
@@ -293,7 +293,7 @@ abstract mixin class _$ControllerStateCopyWith<$Res> implements $ControllerState
   factory _$ControllerStateCopyWith(_ControllerState value, $Res Function(_ControllerState) _then) = __$ControllerStateCopyWithImpl;
 @override @useResult
 $Res call({
- List<LugaresModel> lugaresList, List<NotificationsModel> notificacionesList, List<FlotaModel> flotasList, List<FlotaModel>? searchFlotasList, List<LugaresModel>? searchLugaresList, List<FlotaModel>? searchNotificacionesList
+ List<LugaresModel> lugaresList, List<NotificationsModel> notificacionesList, List<FlotaModel> flotasList, List<FlotaModel>? searchFlotasList, List<LugaresModel>? searchLugaresList, List<NotificationsModel>? searchNotificacionesList
 });
 
 
@@ -318,7 +318,7 @@ as List<NotificationsModel>,flotasList: null == flotasList ? _self._flotasList :
 as List<FlotaModel>,searchFlotasList: freezed == searchFlotasList ? _self._searchFlotasList : searchFlotasList // ignore: cast_nullable_to_non_nullable
 as List<FlotaModel>?,searchLugaresList: freezed == searchLugaresList ? _self._searchLugaresList : searchLugaresList // ignore: cast_nullable_to_non_nullable
 as List<LugaresModel>?,searchNotificacionesList: freezed == searchNotificacionesList ? _self._searchNotificacionesList : searchNotificacionesList // ignore: cast_nullable_to_non_nullable
-as List<FlotaModel>?,
+as List<NotificationsModel>?,
   ));
 }
 

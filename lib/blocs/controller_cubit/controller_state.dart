@@ -14,9 +14,9 @@ abstract class ControllerState with _$ControllerState {
     required List<FlotaModel> flotasList,
     List<FlotaModel>? searchFlotasList,
     List<LugaresModel>? searchLugaresList,
-    List<FlotaModel>? searchNotificacionesList,
+    List<NotificationsModel>? searchNotificacionesList,
   }) = _ControllerState;
 
   factory ControllerState.empty() =>
-      ControllerState(lugaresList: [],notificacionesList: [], flotasList: []);
+      ControllerState(lugaresList: [], notificacionesList: [], flotasList: []);
 }
